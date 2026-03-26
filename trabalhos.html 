@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <title>Trabalhos</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+<h1 style="text-align:center;">Trabalhos</h1>
+
+<ul class="labubu">
+    <li><a href="index.html">Início</a></li>
+    <li><a href="trabalhos.html">Trabalhos</a></li>
+    <li><a href="contacto.html" target="_blank">Contacto</a></li>
+</ul>
+
+<div class="container">
+
+    <div class="trabalho">
+        <img src="imagens/Narrativa fFinal.jpg" alt="Narrativa visual">
+        <p>Narrativa Visual</p>
+    </div>
+
+    <div class="trabalho">
+        <img src="imagens/Ilustração de Publicidade.png" alt="Ilustração publicidade">
+        <p>Ilustração de Publicidade</p>
+    </div>
+
+    <div class="trabalho">
+        <img src="imagem4.jpeg" alt="">
+        <p>Projeto 3</p>
+    </div>
+
+    <div class="trabalho">
+        <img src="imagem6.jpeg" alt="">
+        <p>Projeto 4</p>
+    </div>
+
+    <div class="trabalho">
+        <img src="imagem7.jpeg" alt="">
+        <p>Projeto 5</p>
+    </div>
+
+    <div class="trabalho">
+        <img src="imagem8.jpeg" alt="">
+        <p>Projeto 6</p>
+    </div>
+
+</div>
+
+</body>
+</html>

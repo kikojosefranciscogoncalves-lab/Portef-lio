@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Francisco Gonçalves | Contacto</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo-esquerda">
+                <a href="index.html">Portefólio</a>
+            </div>
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="trabalhos.html">Trabalhos</a></li>
+                <li><a href="contacto.html" class="active">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Contacto</h1>
+
+                <div class="info-contacto">
+                    <h2>Informações</h2>
+                    <p><i>Morada:</i> Rua do Campo lindo 288</p>
+                    <p><i>Email:</i> Kiko.josefranciscogonalves@gmail.com</p>
+                    <p><i>Telemóvel:</i> +351 932104295</p>
+                    
+                    <h3>Redes Sociais</h3>
+                    <p><i>Instagram:</i> itz.x1co</p>     
+    </main>
+</body>
+</html>
