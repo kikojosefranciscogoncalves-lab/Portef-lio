@@ -1,66 +1,69 @@
 <!DOCTYPE html>
 <html lang="pt-pt">
 <head>
-    <title>Trabalhos</title>
     <meta charset="UTF-8">
+    <title>Trabalhos</title>
     <link rel="stylesheet" href="estilos.css">
 </head>
-
 <body>
 
-<h1 style="text-align:center;">Trabalhos</h1>
+<nav>
+    <ul class="labubu">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="trabalhos.html" class="active">Trabalhos</a></li>
+        <li><a href="contacto.html" target="_blank">Contacto</a></li>
+    </ul>
+</nav>
 
-<ul class="labubu">
-    <li><a href="index.html">Início</a></li>
-    <li><a href="trabalhos.html">Trabalhos</a></li>
-    <li><a href="contacto.html" target="_blank">Contacto</a></li>
-</ul>
+<main>
+    <h1 style="text-align:center;">Trabalhos</h1>
 
-<div class="container">
+    <div class="container">
 
-    <div class="trabalho">
-        <a href="imagens/Narrativa fFinal.jpg" target="_blank">
-            <img src="imagens/Narrativa fFinal.jpg" alt="Narrativa visual">
-        </a>
-        <p>Narrativa Visual</p>
+        <div class="trabalho">
+            <a href="imagens/narrativa-ffinal.jpg" target="_blank">
+                <img src="imagens/narrativa-ffinal.jpg" alt="Narrativa Visual">
+            </a>
+            <p>Narrativa Visual</p>
+        </div>
+
+        <div class="trabalho">
+            <a href="imagens/ilustracao-publicidade.png" target="_blank">
+                <img src="imagens/ilustracao-publicidade.png" alt="Ilustração Publicidade">
+            </a>
+            <p>Ilustração de Publicidade</p>
+        </div>
+
+        <div class="trabalho">
+            <a href="imagens/projeto3.jpeg" target="_blank">
+                <img src="imagens/projeto3.jpeg" alt="Projeto 3">
+            </a>
+            <p>Projeto 3</p>
+        </div>
+
+        <div class="trabalho">
+            <a href="imagens/projeto4.jpeg" target="_blank">
+                <img src="imagens/projeto4.jpeg" alt="Projeto 4">
+            </a>
+            <p>Projeto 4</p>
+        </div>
+
+        <div class="trabalho">
+            <a href="imagens/projeto5.jpeg" target="_blank">
+                <img src="imagens/projeto5.jpeg" alt="Projeto 5">
+            </a>
+            <p>Projeto 5</p>
+        </div>
+
+        <div class="trabalho">
+            <a href="imagens/projeto6.jpeg" target="_blank">
+                <img src="imagens/projeto6.jpeg" alt="Projeto 6">
+            </a>
+            <p>Projeto 6</p>
+        </div>
+
     </div>
-
-    <div class="trabalho">
-        <a href="imagens/Ilustração de Publicidade.png" target="_blank">
-            <img src="imagens/Ilustração de Publicidade.png" alt="Ilustração publicidade">
-        </a>
-        <p>Ilustração de Publicidade</p>
-    </div>
-
-    <div class="trabalho">
-        <a href="imagens/imagem4.jpeg" target="_blank">
-            <img src="imagens/imagem4.jpeg" alt="">
-        </a>
-        <p>Projeto 3</p>
-    </div>
-
-    <div class="trabalho">
-        <a href="imagens/imagem6.jpeg" target="_blank">
-            <img src="imagens/imagem6.jpeg" alt="">
-        </a>
-        <p>Projeto 4</p>
-    </div>
-
-    <div class="trabalho">
-        <a href="imagens/imagem7.jpeg" target="_blank">
-            <img src="imagens/imagem7.jpeg" alt="">
-        </a>
-        <p>Projeto 5</p>
-    </div>
-
-    <div class="trabalho">
-        <a href="imagens/imagem8.jpeg" target="_blank">
-            <img src="imagens/imagem8.jpeg" alt="">
-        </a>
-        <p>Projeto 6</p>
-    </div>
-
-</div>
+</main>
 
 </body>
 </html>
