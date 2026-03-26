@@ -94,7 +94,7 @@ h2 {
     font-size: 25px;
 } 
 
-.container{
+#container{
     width: 90%;
     margin: 40px auto;
     display: grid;
@@ -102,7 +102,7 @@ h2 {
     gap: 30px;
 }
 
-.trabalho{
+#trabalho{
     background-color: white;
     padding: 10px;
     border-radius: 10px;
@@ -111,18 +111,18 @@ h2 {
     transition: transform 0.3s;
 }
 
-.trabalho:hover{
+#trabalho:hover{
     transform: translateY(-5px);
 }
 
-.trabalho img{
+#trabalho img{
     width: 100%;
     height: 220px;
     object-fit: cover;
     border-radius: 6px;
 }
 
-.trabalho p{
+#trabalho p{
     font-size: 18px;
     margin-top: 10px;
 }
