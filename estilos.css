@@ -1,128 +1,149 @@
- body {
-    background-color: bisque;  
+* {
     margin: 0;
     padding: 0;
-    min-height: 100%;
-
+    box-sizing: border-box;
 }
 
-#cabecalho {
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background: #0d0d0d;
+    color: #f5f5f5;
+}
+
+
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 40px 80px;
 }
-#cabecalho ul {
+
+.logo {
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #888;
+}
+
+.menu {
     list-style: none;
     display: flex;
+    gap: 40px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #777;
+    font-size: 14px;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+
+.menu a:hover,
+.menu .active {
+    color: #fff;
+}
+
+
+
+.hero {
+    display: flex;
+    align-items: center;
     justify-content: space-between;
-    align-items: center;
-    margin: 0px;
-    padding: 0px;
-} 
-#cabecalho ul li {
-    margin: 0px 10px;
-} 
-h2 {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    font-size: 100px;
-    margin: 0px;
-    padding: 0px;
-} 
-#rodape {
-    text-align: center;
-    padding: 100px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-} 
-#conteúdo {
-    display: flex;
-    align-items: top;
+    padding: 80px;
+    gap: 60px;
 }
 
-#conteúdo img {
-    width: 100%;
-    margin-right: 30px;
-    height: auto;
-} 
-#imagemprincipal{
-    width: 67%;
-    height: auto;
-   /* width: 100%;
-    height: auto;*/
+.hero-texto {
+    max-width: 500px;
 }
-#texto {
-    /*width: 50%;*/
-    padding: 40px;
-    font-size: 20px;
-    line-height: 2;
+
+.hero-texto h1 {
+    font-size: 48px;
     margin-bottom: 20px;
-}   
-.flexBox{
-  width: 100%;
-  
-  display: flex;
-}
-.imageInFlex{
-  width: 50%;
-  height: auto;
-} 
-#Menu {
-    background-color: bisque;
+    font-weight: 500;
 }
 
-#Menu ul {
-    display: flex;
-    gap: 20px;
+.hero-texto p {
+    color: #aaa;
+    line-height: 1.7;
 }
 
-#Menu a {
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-#Menu a:hover {
-    color: #555;
-}
-#Menu a {
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 25px;
-} 
-
-#container{
-    width: 90%;
-    margin: 40px auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
-    gap: 30px;
-}
-
-#trabalho{
-    background-color: white;
-    padding: 10px;
-    border-radius: 10px;
-    text-align: center;
-    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
-    transition: transform 0.3s;
-}
-
-#trabalho:hover{
-    transform: translateY(-5px);
-}
-
-#trabalho img{
+.hero-imagem img {
     width: 100%;
-    height: 220px;
-    object-fit: cover;
-    border-radius: 6px;
+    max-width: 500px;
 }
 
-#trabalho p{
-    font-size: 18px;
-    margin-top: 10px;
-} 
+
+.about {
+    padding: 0 80px 80px 80px;
+    max-width: 600px;
+    color: #999;
+    line-height: 1.7;
+}
+
+
+.galeria {
+    padding: 80px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 50px;
+}
+
+.card {
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    transition: 0.4s;
+    filter: grayscale(20%);
+}
+
+.card img:hover {
+    transform: scale(1.05);
+    filter: grayscale(0%);
+}
+
+.card p {
+    margin-top: 12px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+
+.contacto {
+    padding: 120px 80px;
+}
+
+.contacto h1 {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.info p {
+    margin-bottom: 15px;
+    color: #aaa;
+}
+
+.info a {
+    color: #ccc;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: 0.3s;
+}
+
+.info a:hover {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+
+.footer {
+    text-align: center;
+    padding: 40px;
+    font-size: 12px;
+    color: #666;
+}
