@@ -1,92 +1,113 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trabalhos | Francisco Gonçalves</title>
+    <title>Trabalhos</title>
+
     <link rel="stylesheet" href="estilos.css">
+    <script src="script.js" defer></script>
 </head>
+
 <body>
 
-<div class="loader">
-    <div class="loader-text">FG</div>
-</div>
+    <header class="header">
+        <div class="logo">FG STUDIO</div>
 
-<header class="header">
-    <div class="logo">FRANCISCO GONÇALVES</div>
-    <nav>
-        <ul class="menu">
-            <li><a href="index.html">Início</a></li>
-            <li><a href="sobre.html">Sobre</a></li>
-            <li><a href="trabalhos.html">Trabalhos</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-        </ul>
-    </nav>
-</header>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="trabalhos.html" class="active">Trabalhos</a></li>
+                <li><a href="cv.html">CV</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<main class="grid">
-    <a class="work" href="projetos/projeto1.html">
-        <img src="imagens/Narrativa_fFinal.jpg" alt="Narrativa Visual">
-        <div class="work-info">
-            <h3>Narrativa Visual</h3>
-            <span>Editorial</span>
+    <main class="grid">
+
+        <div class="work"
+            onclick="abrirModal('Trabalhos/NarrativaFinal.jpg','Na criação de uma história composta apenas por seis imagens, sem qualquer texto ou explicação adicional. O principal desafio deste projeto era desenvolver uma narrativa visual em que qualquer uma das imagens pudesse servir como ponto de partida. Ou seja, independentemente da imagem escolhida para começar, o observador conseguiria construir uma sequência lógica e interpretar a história de forma coerente. Este conceito exigia uma grande atenção à composição, à ligação entre as cenas e aos elementos visuais presentes em cada imagem, de modo a garantir continuidade e múltiplas possibilidades de leitura. Assim, o projeto explorava não só a criatividade narrativa, mas também a capacidade de comunicar ideias exclusivamente através da imagem, permitindo diferentes interpretações e percursos dentro da mesma história.')">
+            <img src="Trabalhos/NarrativaFinal.jpg">
+            <div class="work-info">
+                <h3>Narrativa Visual</h3>
+            
+            </div>
         </div>
-    </a>
 
-    <a class="work" href="projetos/projeto2.html">
-        <img src="imagens/Ilustracao_Publicidade.png" alt="Ilustração Publicitária">
-        <div class="work-info">
-            <h3>Ilustração Publicitária</h3>
-            <span>Composição</span>
+        <div class="work"
+            onclick="abrirModal('Trabalhos/IlustraçaoPublicidade.png','Exploração de ilustração aplicada à publicidade.')">
+            <img src="Trabalhos/IlustraçaoPublicidade.png">
+            <div class="work-info">
+                <h3>Ilustração Publicitária</h3>
+            </div>
         </div>
-    </a>
 
-    <a class="work" href="projetos/projeto3.html">
-        <img src="imagens/imagem4.jpeg" alt="Exploração Visual">
-        <div class="work-info">
-            <h3>Exploração Visual</h3>
-            <span>Experimental</span>
+        <div class="work"
+            onclick="abrirModal('Trabalhos/mockupcatrinas.png','A partir do cartaz desenvolvido para o “Dia das Catrinas”, foi criada uma aplicação tridimensional da identidade visual, transformando o conceito gráfico num objeto funcional: uma tote bag. O objetivo foi transportar os elementos principais do cartaz temos uma tipografia expressiva, cores vibrantes e referências musicais e festivas, para um suporte físico, mantendo a coerência visual da marca/evento. A tote bag funciona como extensão da comunicação do cartaz, reforçando a identidade do evento de forma prática, contemporânea e visualmente apelativa. A adaptação para 3D permitiu explorar a presença da marca no quotidiano, criando um objeto promocional que combina design, utilidade e impacto visual.')">
+            <img src="Trabalhos/catrinas.png">
+            <div class="work-info">
+                <h3>Cartaz</h3>
+            </div>
         </div>
-    </a>
+        <div class="work"
+            onclick="abrirModal('Trabalhos/Caixa-02.jpg','Projeto de narrativa visual e composição gráfica.')">
+            <img src="Trabalhos/Caixa-02.jpg">
+            <div class="work-info">
+                <h3>Modelo de Caixa</h3>
+            </div>
+        </div>
 
-    <a class="work" href="projetos/projeto4.html">
-        <img src="imagens/imagem6.jpeg" alt="Composição Gráfica">
-        <div class="work-info">
-            <h3>Composição Gráfica</h3>
-            <span>Design</span>
-        </div>
-    </a>
+        <div class="work"
+            onclick="abrirModal('Trabalhos/rastro.png','Exploração de ilustração aplicada à publicidade.')">
+            <img src="Trabalhos/rastro.png">
+            <div class="work-info">
+                <h3>Tipografia ligado ao desenhado</h3>
+            </div>
 
-    <a class="work" href="projetos/projeto5.html">
-        <img src="imagens/imagem7.jpeg" alt="Forma e Estrutura">
-        <div class="work-info">
-            <h3>Forma e Estrutura</h3>
-            <span>Estudo</span>
         </div>
-    </a>
 
-    <a class="work" href="projetos/projeto6.html">
-        <img src="imagens/imagem8.jpeg" alt="Projeto Experimental">
-        <div class="work-info">
-            <h3>Projeto Experimental</h3>
-            <span>Concept</span>
+        <div class="work" onclick="abrirModal('Trabalhos/abecedário.png','Criação de Abecedário')">
+            <img src="Trabalhos/abecedário.png">
+            <div class="work-info">
+                <h3>Criação de Abecedário</h3>
+            </div>
         </div>
-    </a>
-</main>
 
-<footer class="footer">
-    <div class="footer-content">
-        <div>FRANCISCO GONÇALVES</div>
-        <div>DESIGN DE COMUNICAÇÃO</div>
-        <div class="social-links">
-            <a href="https://instagram.com/itz.x1co" target="_blank">IG</a>
-            <a href="#">BE</a>
-            <a href="#">LI</a>
+        <div class="work" onclick="abrirModal('Trabalhos/humbertodelagado.png','Cartaz ')">
+            <img src="Trabalhos/humbertodelagado.png">
+            <div class="work-info">
+                <h3>Cartaz com inspiração a Rodchenko</h3>
+            </div>
         </div>
+
+        <div class="work" onclick="abrirModal('Trabalhos/capadelivro.png','Capa de Livro ')">
+
+            <img src="Trabalhos/capadelivro.png">
+
+            <div class="work-info">
+                <h3>Cartaz de um Livro</h3>
+            </div>
+        </div>
+
+
+    </main>
+
+    <div id="modal" class="modal">
+        <span onclick="fecharModal()">&times;</span>
+        
+            <img id="modal-img">
+        
+        
+            <p id="modal-texto"></p>
+        
     </div>
-    <div style="margin-top: 2rem;">© 2026</div>
-</footer>
 
-<script src="script.js"></script>
+    <footer class="footer">
+        © 2026 FG Design Studio
+    </footer>
+
 </body>
+
 </html>
