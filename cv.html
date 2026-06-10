@@ -1,28 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV | FG Design Studio</title>
-
     <link rel="stylesheet" href="estilos.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
     <link
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400;500&display=swap"
         rel="stylesheet">
     <script src="script.js" defer></script>
 </head>
-
 <body>
-
     <header class="header">
-
         <div class="logo">CURRICULUM</div>
-
         <nav>
             <ul class="menu">
                 <li><a href="index.html">Início</a></li>
@@ -32,19 +24,20 @@
             </ul>
         </nav>
     </header>
-    <main class="grid">
-  <div class="work" onclick="abrirModal('Cv em Inglês ')">
-        <img src="Trabalhos/CV.png">
-        <div class="work-info">
-            <h3>CV em Inglês</h3>
+
+    <main class="grid grid-cv">
+        <div class="cv-card">
+            <div class="work" onclick="abrirModalCV('Trabalhos/CV.png')">
+                <img src="Trabalhos/CV.png" alt="CV em Inglês">
+                <div class="work-info">
+                    <h3>CV em Inglês</h3>
+                </div>
+            </div>
+            <a href="Trabalhos/CV.png" download="CV_Ingles" class="btn-download">
+                <span class="btn-icon">↓</span>
+                <span class="btn-text">Download CV — English</span>
+            </a>
         </div>
-    </div>
-     <div class="work" onclick="abrirModal('Cv em Inglês ')">
-        <img src="Trabalhos/CV.png">
-        <div class="work-info">
-            <h3>CV em Português</h3>
-        </div>
-    </div>
- </main>
-</body>
-    
+    </main>
+
+    <div class="modal" id="modal" onclick="fecharModal()
