@@ -31,4 +31,5 @@ function abrirModalCV(img) {
     document.getElementById("modal-texto").innerText = "";
     document.getElementById("modal-tags").innerHTML = "";
     modal.style.display = "flex";
+    
 }
