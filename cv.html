@@ -40,4 +40,13 @@
         </div>
     </main>
 
-    <div class="modal" id="modal" onclick="fecharModal()
+    <div class="modal" id="modal" onclick="fecharModal()">
+    <div class="modal-conteudo" onclick="event.stopPropagation()">
+        <button class="modal-fechar" onclick="fecharModal()">✕</button>
+        <img id="modal-img" src="" alt="">
+        <h2 id="modal-titulo"></h2>
+        <p id="modal-ano"></p>
+        <p id="modal-texto"></p>
+        <div id="modal-tags"></div>
+    </div>
+</div>

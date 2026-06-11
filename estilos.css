@@ -269,7 +269,7 @@ body {
 }
 
 .modal-divider {
-    width: 30px;
+    width: 17px;
     height: 1px;
     background: #222;
 }
@@ -307,6 +307,14 @@ body {
     font-weight: 300;
     margin-top: 10px;
 
+}
+
+#modal-img {
+    height: 78vh;
+    width: auto;
+    max-width: 52%;
+    object-fit: contain;
+    box-shadow: 0 40px 100px rgba(0, 0, 0, 0.6);
 }
 
 .contact {
